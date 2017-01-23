@@ -1,0 +1,47 @@
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+*/.settings/
+.project
+*/.project
+.classpath
+*/.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# py
+*.pyc
+bin/
+local/
+lib/
+include/
+logs/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+# *.jar
+# *.war
+# *.zip
+# *.tar
+# *.tar.gz
+
+###
+dependency-reduced-pom.xml
+
+.~lock*
